@@ -1,23 +1,54 @@
 # Elevator-Controller-System
-Elevator Controller System (Digital Electronics)
 
-This project implements an Elevator Controller System using digital electronics principles. The system simulates the operation of a multi-floor elevator by processing floor requests, determining the direction of movement, and controlling elevator actions such as moving up, moving down, and stopping at requested floors.
+## Overview
 
-The design is based on fundamental digital logic components including finite state machines (FSMs), counters, multiplexers, encoders/decoders, and combinational/sequential logic circuits. The controller efficiently handles multiple floor requests while ensuring correct elevator operation and state transitions.
+The Elevator Controller System is a digital electronics project that simulates the operation of a multi-floor elevator. The system processes floor requests, determines the direction of travel, and controls elevator movements and stops efficiently.
 
-Key Features
-Multi-floor elevator simulation
-Floor request handling and prioritization
-Automatic direction control (Up/Down)
-Floor position tracking
-Door open/close control logic
-FSM-based control architecture
-Modular and scalable digital design
-Technologies Used
-Digital Logic Design
-Finite State Machines (FSM)
-Verilog/VHDL (if applicable)
-Logic Simulation Tools (e.g., ModelSim, Logisim, Vivado)
-Applications
+The project is designed using fundamental digital electronics concepts such as finite state machines (FSMs), counters, multiplexers, encoders/decoders, and combinational and sequential logic circuits. It demonstrates how digital systems can be used to automate real-world control applications.
 
-This project demonstrates the practical application of digital electronics concepts in real-world automation and embedded control systems, making it a valuable educational project for understanding sequential circuit design and controller implementation.
+## Features
+
+* Supports multiple floor requests
+* Automatic up/down direction control
+* Floor position tracking
+* Elevator stop management
+* Door open and close control logic
+* FSM-based controller design
+* Modular and scalable architecture
+
+## Components Used
+
+* Logic Gates
+* Flip-Flops
+* Counters
+* Multiplexers
+* Encoders/Decoders
+* Finite State Machines (FSM)
+
+## Working
+
+1. Users select the desired floor using input buttons.
+2. The controller receives and stores the request.
+3. Based on the current floor and requested floor, the system determines the travel direction.
+4. The elevator moves to the requested floor and stops.
+5. The door opens for a predefined time and then closes.
+6. The controller checks for any pending requests and repeats the process.
+
+## Applications
+
+* Elevator automation systems
+* Embedded control systems
+* Digital electronics education and training
+* FSM and sequential circuit design demonstrations
+
+## Learning Outcomes
+
+* Understanding finite state machine design
+* Implementing sequential logic circuits
+* Designing real-time control systems
+* Applying digital electronics concepts to practical applications
+
+## Author
+
+Amey Chauhan
+
